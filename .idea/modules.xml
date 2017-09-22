@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model.iml" group="model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model_main.iml" group="model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model_test.iml" group="model" />
+      <module fileurl="file://$PROJECT_DIR$/rest.iml" filepath="$PROJECT_DIR$/rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/se/security.iml" filepath="$PROJECT_DIR$/.idea/modules/se/security.iml" group="se" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/se/security_main.iml" filepath="$PROJECT_DIR$/.idea/modules/se/security_main.iml" group="se" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/se/security_test.iml" filepath="$PROJECT_DIR$/.idea/modules/se/security_test.iml" group="se" />
+    </modules>
+  </component>
+</project>

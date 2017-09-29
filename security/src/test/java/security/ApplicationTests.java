@@ -15,7 +15,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
-import org.springframework.web.client.RestTemplate;
 
 import bookmarks.Application;
 
@@ -31,7 +30,7 @@ public class ApplicationTests {
 	@Test
 	public void passwordGrant() {
 		MultiValueMap<String, String> request = new LinkedMultiValueMap<String, String>();
-		request.set("username", "jihong");
+		request.set("username", "jlong");
 		request.set("password", "password");
 		request.set("grant_type", "password");
 		Map<String, Object> token = testRestTemplate

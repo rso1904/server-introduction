@@ -58,7 +58,7 @@ public class Application {
 			}
         });
     }
-
+    
     @Bean
     CommandLineRunner init(AccountRepository accountRepository, BookmarkRepository bookmarkRepository) {
         return (evt) -> Arrays.asList(

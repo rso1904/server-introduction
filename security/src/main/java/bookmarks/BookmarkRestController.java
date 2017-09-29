@@ -72,6 +72,12 @@ class BookmarkRestController {
         return new BookmarkResource(
                 this.bookmarkRepository.findOne(bookmarkId));
     }
+    
+    @RequestMapping(method = RequestMethod.POST, value="/signin")
+    boolean signin(Principal principal) {
+    	this.validateUser(principal);
+    	return true;
+    }
 
     private void validateUser(Principal principal) {
         String userId = principal.getName();
